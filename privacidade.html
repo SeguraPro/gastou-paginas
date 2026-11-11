@@ -57,6 +57,7 @@
 <ul>
   <li><strong>Google:</strong> login com a conta Google, backup no Google Drive e leitura de texto (ML Kit, executado no aparelho).</li>
   <li><strong>Microsoft:</strong> login com a conta Microsoft e backup no OneDrive.</li>
+  <li><strong>Cloudflare (apenas no app para Windows):</strong> ao entrar com a conta Google, o código de autorização do login passa por um serviço do Cloudflare Workers, que guarda a chave do aplicativo e a troca pelo acesso ao seu Google Drive. Esse serviço não armazena esses dados e não recebe suas despesas, comprovantes nem backups.</li>
 </ul>
 <p>Cada serviço segue a própria política de privacidade.</p>
 
